@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="search">
+            <input class="search-input" type="text" placeholder="Enter the city name">
+            <button class="search-btn ">
+                <img src="./images/search.png">
+            </button>
+        </div>
+        <div class="error-msg">
+            <p>Invalid City Name!</p>
+        </div>
+        <div class="city-container">
+            <h1 class="city">Italy</h1>
+        </div>
+        <div class="middle-container">
+            <img src="./images/cloudy.png" class="weather-img">
+            <p class=temp> 21°C</p>
+        </div>
+        <div class="bottom-container">
+            <div class="wind-container">
+                <img src="./images/wind.png">
+                <p>Wind =</p>
+                <p class="wind">50 km/h</p>
+            </div>
+            <div class="humidity-container">
+                <img src="./images/humidity.png">
+                <p>Humidity =</p>
+                <p class="humidity">50%</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
